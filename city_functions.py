@@ -5,4 +5,3 @@ def cities(city,country,population=''):
         location = f'{city}, {country}'
     return location.title()
 
-    
