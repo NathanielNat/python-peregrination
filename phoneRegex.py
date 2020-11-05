@@ -59,8 +59,8 @@ heroRegex =re.compile(r'Batman|Robben')
 # endsWithAt = re.findall('.at',txt)
 
 txt = 'RoboCop is part man part machine, all cop.'
-robocop = re.compile(r'robocop', re.I)
-robo = robocop.search('RoboCop is part man, part machine, all cop.').group()
+txt = re.compile(r'robocop', re.I)
+robo = txt.search('RoboCop is part man, part machine, all cop.').group()
 print(robo)
 
 # txt = re.search('robocop',re.I).group()
