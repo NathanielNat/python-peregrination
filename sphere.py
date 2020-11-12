@@ -18,4 +18,18 @@ def ran_check(num,low,high):
         return False
 
 check   = ran_check(18,4,9)
-print(check)
+# print(check)
+
+
+def uplow(s):
+    lower_count = 0
+    upper_count = 0
+    for i in s:
+        if i.islower():
+            lower_count +=1
+        elif i.isupper():
+            upper_count +=1
+    print(f'Number of Lower case letters is {lower_count}')
+    print(f'Number of Upper case letters is {upper_count}')
+
+uplow('Hello World')
