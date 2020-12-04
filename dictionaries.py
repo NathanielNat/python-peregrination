@@ -9,7 +9,7 @@ for i in range(0, num):
     # get name and phone numbers from user to create phonebook dictionary
     entry = sys.stdin().split("\n")
 
-    # get names as keys
+    # get names as keyss
     name = entry[0]
     # get phone numbers as values
     phone = int(entry[1])

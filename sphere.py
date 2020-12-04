@@ -22,6 +22,7 @@ check   = ran_check(18,4,9)
 
 
 def uplow(s):
+    """Count number of lower and upper case letters"""
     lower_count = 0
     upper_count = 0
     for i in s:
@@ -32,4 +33,4 @@ def uplow(s):
     print(f'Number of Lower case letters is {lower_count}')
     print(f'Number of Upper case letters is {upper_count}')
 
-uplow('Hello World')
+# uplow('Hello World')
