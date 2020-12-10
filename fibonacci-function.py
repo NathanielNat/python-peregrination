@@ -29,3 +29,18 @@ def recFibonacci(n):
 
 print(fibonacci(9))
 print(recFibonacci(9))
+
+
+            
+        # i = 0 
+        # First_Value = 1
+        # Second_Value =2
+        # if(self.number <= 0):
+        #     Next = i
+        # else:
+        #     while(i < self.number):
+        #         Next = First_Value + Second_Value
+        #         First_Value = Second_Value
+        #         Second_Value = Next
+        #         i = i + 1
+        # return Next

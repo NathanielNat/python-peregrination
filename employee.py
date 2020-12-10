@@ -4,7 +4,7 @@ class Employee:
         self.first_name = first_name
         self.last_name = last_name
         self.salary = salary
-        self.salary_raise = 500
+        self.salary_raise = 5000
 
     def give_raise(self,custom_raise=''):
         if custom_raise:
@@ -12,4 +12,4 @@ class Employee:
             
         else:
             self.salary += self.salary_raise
-        print(self.salary)
+        return self.salary
